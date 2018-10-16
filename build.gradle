@@ -43,6 +43,7 @@ dependencies {
 	liquibaseRuntime 'org.springframework.boot:spring-boot-starter-web'
 	liquibaseRuntime 'org.liquibase.ext:liquibase-hibernate5:3.6'
 	liquibaseRuntime files('src/main')
+	liquibaseRuntime sourceSets.main.output
 }
 liquibase {
   activities {
