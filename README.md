@@ -1,0 +1,1 @@
+# Test liquibase migrations with springboot project
